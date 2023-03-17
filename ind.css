@@ -1,0 +1,163 @@
+*,
+*::after *::before {
+	box-sizing: border-box;
+}
+.body {
+	font-family: "Open Sans", sans-serif;
+	margin: 0;
+	font-size: 14px;
+	display: flex;
+	flex-direction: column;
+}
+.live {
+	background-color: #e0e0e0;
+}
+.header {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: center;
+	max-width: 1249px;
+	min-height: 89px;
+	list-style: none;
+	margin: 0 auto;
+	background: #000000;
+}
+.header__av {
+	display: flex;
+	align-items: stretch;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+	flex-wrap: wrap;
+}
+.av__header {
+	width: 100%;
+	font-family: "Open Sans", sans-serif;
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	font-style: bold;
+	font-size: 14px;
+	flex-wrap: wrap;
+	list-style: none;
+	margin: 0 auto;
+	line-height: 24px;
+}
+.tolk {
+	display: flex;
+	align-items: stretch;
+	justify-content: center;
+	min-height: 89px;
+	text-decoration: none;
+	list-style: none;
+}
+.tolk:hover {
+	background-color: #ff3f48;
+}
+.m__li {
+	display: flex;
+	font-family: "Open Sans", sans-serif;
+	align-items: center;
+	margin-right: 25px;
+	color: #e0e0e0;
+	font-size: 14px;
+	padding: 0 30px;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.active__li {
+	border-radius: 17px;
+	background-color: #ff2d2d;
+	display: flex;
+	align-items: center;
+}
+/*main*/
+.iv__content {
+	width: 100%;
+	flex-wrap: wrap;
+	color: #ff2d2d;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	flex-grow: 1;
+	text-align: left;
+}
+.iv {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 102px;
+	padding-bottom: 94px;
+}
+.sect__iv {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	max-width: 1249px;
+	padding-left: 1vw;
+	padding-right: 1vw;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.iv__cont {
+	width: 616px;
+	background: #e0e0e0;
+	margin-bottom: 20px;
+	margin-right: 75px;
+	bottom: 12px;
+	position: relative;
+	text-align: center;
+}
+.iv__heading {
+	line-height: 72px;
+	width: 618px;
+	margin: 0 auto;
+	text-align: left;
+	color: #000000;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	font-size: 55px;
+	font-family: "Open Sans", sans-serif;
+}
+.iv__text {
+	width: 100%;
+	max-width: 554px;
+	line-height: 28px;
+	font-weight: 300;
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	margin: 0 auto;
+	margin-bottom: 62px;
+	font-family: "Open Sans", sans-serif;
+}
+.button__red {
+	width: 227px;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration-line: none;
+	background-color: #ff2d2d;
+	color: #ffffff;
+	border-radius: 7px;
+}
+.iv__button {
+	width: 227px;
+	font-family: "Open Sans", sans-serif;
+	display: inline-block;
+	padding: 16px 0;
+	color: #ffffff;
+	text-align: center;
+	border-radius: 7px;
+}
+.image__intro {
+	width: 551px;
+	height: 356px;
+	opacity: 0.2;
+}
+.img__intro {
+	margin-right: 0px 250px;
+}
